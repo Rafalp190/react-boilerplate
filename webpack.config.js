@@ -15,10 +15,14 @@ const config = {
     {
       test: /\.css$/,
       use: ['style-loader', 'css-loader'],
+    },
+    {
+      test: /\.scss$/,
+      use: ['style-loader', 'css-loader', 'sass-loader'],
     }],
   },
   plugins: [
-    new HtmlWebpackPlugin()
-  ]
+    new HtmlWebpackPlugin(),
+  ],
 }
 module.exports = config

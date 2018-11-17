@@ -1,14 +1,18 @@
 import React from 'react'
-import ReactDom from 'react-dom'
+import { render } from 'react-dom'
+import { Provider } from 'react-redux'
+import { createStore } from 'redux'
+import rootReducer from './example/reducers'
+import App from './example/components/App.jsx'
 
-const Hello = () => (
-  <h1>Hello!</h1>
-);
+const store = createStore(rootReducer)
 
 const Root = document.createElement('div', {id: 'root'})
 document.body.appendChild(Root)
 
-ReactDom.render(
-  <Hello />, 
+render(
+  <Provider store={store}>
+    <App />
+  </Provider>,
   Root
 )
