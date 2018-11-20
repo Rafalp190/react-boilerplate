@@ -41,20 +41,20 @@ This will launch the webpack-dev-server at [localhost:8080](http://localhost:808
 
 ## Project Structure
 
-- React boilerplate
- -dist
-  -main.js
-  -index.html (entry point)
- -node_modules (node package module install location)
- -src (source code directory for your apps)
-  -index.js (App entry point)
-  -example (directory with example app code)
- -.babelrc (babel configuration file)
- -.eslintrc.json (eslint configuration file)
- -package.json (npm package list)
- -webpack.config.js (webpack configuration file)
- -README.md (this readme)
- -.gitignore (basic .gitignore for node projects)
+- React boilerplate  
+  -dist  
+    -main.js  
+    -index.html (entry point)  
+  -node_modules (node package module install location)  
+  -src (source code directory for your apps)  
+    -index.js (App entry point)  
+    -example (directory with example app code)  
+  -.babelrc (babel configuration file)  
+  -.eslintrc.json (eslint configuration file)  
+  -package.json (npm package list)  
+  -webpack.config.js (webpack configuration file)  
+  -README.md (this readme)  
+  -.gitignore (basic .gitignore for node projects)  
 
 ## Packages included
 
