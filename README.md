@@ -14,7 +14,7 @@ To be able to run this project boilerplate you will require an instalation of:
 - [Git](https://git-scm.com/) 
 - [NodeJS](https://nodejs.org/en/)
 
-## Instalation  
+## Installation  
 
 Clone the github repository in a directory of your choosing
 

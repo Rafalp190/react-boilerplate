@@ -10,7 +10,7 @@ const config = {
     },
     {
       test: /\.(png|jpg|gif|svg)$/,
-      use: ['file-loader'],
+      use: ['url-loader'],
     },
     {
       test: /\.css$/,
